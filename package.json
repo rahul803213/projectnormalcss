@@ -1,0 +1,15 @@
+{
+  "name": "realworldproject",
+  "version": "1.0.0",
+  "description": "this is my first real world project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "rahul kumar",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

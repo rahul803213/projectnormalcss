@@ -1,0 +1,44 @@
+.header{
+  height: 15vh;
+  background-color: #3d84b8;
+  position: relative;
+  border-radius: 1rem;
+
+@include respond(phone){
+  height: 15vh;
+  //background-color: red;
+  //position: relative;
+border-radius: 0px;
+}
+
+
+
+&__text-box{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+
+}
+  &__logo-box{
+    top:25%;
+    left:2rem;
+
+    position: absolute;
+  }
+  &__logo{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    @include respond(phone){
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+}
+
+.heading-primary{
+
+}

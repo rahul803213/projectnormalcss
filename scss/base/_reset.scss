@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 2rem;
+  margin: 0px;
+  background-color: #faf3f3;
+@include respond(phone){
+  padding:0px;
+}
+}
